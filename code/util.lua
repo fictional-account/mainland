@@ -26,13 +26,14 @@ morph:init(
 gametitle = font("theme/alex.ttf", 72);
 header = font("theme/alex.ttf", 36);
 title = font("theme/libs-bi.ttf", 18);
-quest = font("theme/libs-b.ttf", 20);
+quest = font("theme/libs-b.ttf", 14);
 
 title1 = font("theme/libs-b.ttf", 16);
 title2 = font("theme/libs-r.ttf", 16);
 small = font("theme/libs-r.ttf", 12);
 small_fn = sprite.font("theme/libs-r.ttf", 12);
 regular = font("theme/libs-r.ttf", 14);
+credits = font("theme/libs-r.ttf", 12);
 
 gui = {}
 gui.fading = 10;
