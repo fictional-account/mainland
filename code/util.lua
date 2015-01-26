@@ -23,17 +23,16 @@ morph:init(
   "game/entry7.lua", 
   "game/entry8.lua")
 
-gametitle = font("theme/corrupt.ttf", 40);
-header = font("theme/corrupt.ttf", 22);
-title = font("theme/corrupt.ttf", 22);
-quest = font("theme/corrupt.ttf", 22);
+gametitle = font("theme/alex.ttf", 72);
+header = font("theme/alex.ttf", 36);
+title = font("theme/libs-bi.ttf", 18);
+quest = font("theme/libs-b.ttf", 20);
 
-title1 = font("theme/corrupt.ttf", 22);
-title2 = font("theme/corrupt.ttf", 22);
-small = font("theme/corrupt.ttf", 22);
-small_fn = sprite.font("theme/corrupt.ttf", 22);
-regular = font("theme/corrupt.ttf", 22);
-credits = font("theme/constan.ttf", 11);
+title1 = font("theme/libs-b.ttf", 16);
+title2 = font("theme/libs-r.ttf", 16);
+small = font("theme/libs-r.ttf", 12);
+small_fn = sprite.font("theme/libs-r.ttf", 12);
+regular = font("theme/libs-r.ttf", 14);
 
 gui = {}
 gui.fading = 10;

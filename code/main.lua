@@ -16,7 +16,7 @@ dofile "game/entry7.lua"
 dofile "game/entry8.lua"
 
 --game.pic = 'gfx/texture-overlay2.png';
-gametitle = font("theme/corrupt.ttf", 72);
+gametitle = font("theme/libs-r.ttf", 40);
 
 main = scene {
    dsc          = "^"..img("gfx/island.png").."^^^"..txtc(gametitle:txt("Mainland"))
